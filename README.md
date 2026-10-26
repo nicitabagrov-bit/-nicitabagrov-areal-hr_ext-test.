@@ -21,6 +21,8 @@
 ```bash
 
 docker run -d --name hr-postgres -p 5432:5432 -e POSTGRES_PASSWORD=your_secure_password -e POSTGRES_DB=hr_db postgres:17
+```
+
 
 ## 📁 Структура проекта
 * __/api__ — исходный код бэкенда (NestJS), включая папку `/migrations`.
