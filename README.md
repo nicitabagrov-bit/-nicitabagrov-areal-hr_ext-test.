@@ -18,4 +18,13 @@
 
 **Запуск PostgreSQL в Docker (для разработки):**
 ```bash
+
 docker run -d --name hr-postgres -p 5432:5432 -e POSTGRES_PASSWORD=your_secure_password -e POSTGRES_DB=hr_db postgres:17
+## 📁 Структура проекта
+
+* **/api** — исходный код бэкенда (NestJS), включая папку `/migrations`.
+* **/app** — исходный код фронтенда (Vue.js / Quasar).
+* **/containers** — файлы `Dockerfile` для сборки образов.
+* **/docs** — документация, схема БД (`.drawio`) и превью (`.png`).
+* **/.env.example** — шаблон переменных окружения.
+* **/docker-compose.yml** — конфигурация для запуска.
