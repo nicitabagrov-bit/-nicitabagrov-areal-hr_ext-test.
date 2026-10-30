@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@nestjs/mapped-types": "*",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1"
+  }
+}
